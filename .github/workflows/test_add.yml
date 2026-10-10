@@ -1,0 +1,16 @@
+name: test_add
+
+on : push
+
+jobs:
+  tes_cal:
+    runs-on: ubunty-latest
+    steps:
+      -name: Get the repository code
+       uses: actions/checkout@v4
+
+      -name: Show downloaded files
+       run: ls -la
+
+      -name: Run tests
+       run: python3 -m unittest discover -v
