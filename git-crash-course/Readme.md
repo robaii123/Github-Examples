@@ -13,7 +13,7 @@ code Readme.md
 git status
 git add Readme.md
 # makes changes to readme.md
-git commit -m "add readme file"
+git commit -m "add readme file" 
 ```
 
 
