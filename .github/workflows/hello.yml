@@ -17,4 +17,4 @@ jobs:
           pwd
       - name: we will test some Actions
         uses: actions/checkout@v4
-        run: ls -la
+        
