@@ -17,4 +17,6 @@ jobs:
           pwd
       - name: we will test some Actions
         uses: actions/checkout@v4
+      - name: all my repo
+        run: ls -la
         
